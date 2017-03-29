@@ -1,0 +1,10 @@
+a {
+  color: red;
+  font-size: 40px;
+  -webkit-transition: color 3s linear;
+  transition: color 3s linear;
+}
+
+a:hover {
+  color: blue;
+}

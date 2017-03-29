@@ -1,0 +1,5 @@
+$my-gradient: -webkit-linear-gradient(bottom, white 0%, transparent 50%, transparent 100%);
+
+img {
+  -webkit-box-reflect: below 0px $my-gradient;
+}

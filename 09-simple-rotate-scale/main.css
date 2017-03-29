@@ -1,0 +1,48 @@
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    /*
+      transform: rotate(20deg);
+      transform: scale(2);
+    */
+    -webkit-transform: rotate(180deg) scale(2);
+            transform: rotate(180deg) scale(2);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    /*
+      transform: rotate(20deg);
+      transform: scale(2);
+    */
+    -webkit-transform: rotate(180deg) scale(2);
+            transform: rotate(180deg) scale(2);
+  }
+}
+
+.pulse {
+  /*
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+  */
+  -webkit-animation: pulse 4s alternate 2;
+          animation: pulse 4s alternate 2;
+  width: 300px;
+  height: 100px;
+  background: green;
+  position: relative;
+  margin: 200px auto 0;
+  line-height: 100px;
+  text-align: center;
+  font-family: arial;
+}

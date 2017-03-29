@@ -1,0 +1,6 @@
+img {
+  transition: transform 1s linear;
+  &:hover {
+    transform: rotate(180deg);
+  }
+}

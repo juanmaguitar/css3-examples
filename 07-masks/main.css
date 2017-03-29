@@ -1,0 +1,13 @@
+img {
+  -webkit-mask-box-image: url(img/letter-a.png);
+  opacity: .2;
+  height: 100vh;
+  margin: 0 auto;
+  display: block;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+
+img:hover {
+  opacity: 1;
+}
