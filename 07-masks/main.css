@@ -1,5 +1,5 @@
 img {
-  -webkit-mask-box-image: url(img/letter-a.png);
+  -webkit-mask-box-image: url(../img/letter-a.png);
   opacity: .2;
   height: 100vh;
   margin: 0 auto;
