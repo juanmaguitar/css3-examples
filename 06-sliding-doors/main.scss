@@ -9,7 +9,7 @@
     img {
       position: absolute;
       top:0; left: 0;
-      -webkit-transition: left .6s linear;
+      transition: left .6s linear;
       &:hover {
         left: -200px;
       }
