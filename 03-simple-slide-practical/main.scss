@@ -1,0 +1,12 @@
+#nav li {
+  list-style: none;
+  a {
+    color: black;
+    position: relative; left:0;
+    transition: left .3s linear;
+    &:hover {
+      left: 10px;
+    }
+  }
+}
+

@@ -1,0 +1,18 @@
+#teaser-wrap {
+  .teaser {
+    width: 200px; height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float:left;
+    margin: 1em;
+    img {
+      position: absolute;
+      top:0; left: 0;
+      -webkit-transition: left .6s linear;
+      &:hover {
+        left: -200px;
+      }
+    }
+  }
+}

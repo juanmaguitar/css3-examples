@@ -1,0 +1,15 @@
+#nav li {
+  list-style: none;
+}
+
+#nav li a {
+  color: black;
+  position: relative;
+  left: 0;
+  -webkit-transition: left .3s linear;
+  transition: left .3s linear;
+}
+
+#nav li a:hover {
+  left: 10px;
+}

@@ -1,0 +1,13 @@
+#box {
+  width: 250px;
+  height: 250px;
+  background: red;
+  position: relative;
+  left: 0;
+  -webkit-transition: left 2s linear;
+  transition: left 2s linear;
+}
+
+#box:hover {
+  left: 100px;
+}
